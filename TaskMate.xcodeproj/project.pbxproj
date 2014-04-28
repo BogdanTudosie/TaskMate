@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		439D8AB218FFA75A0079EFE0 /* Project.m in Sources */ = {isa = PBXBuildFile; fileRef = 439D8AB118FFA75A0079EFE0 /* Project.m */; };
+		439D8AB518FFA75A0079EFE0 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 439D8AB418FFA75A0079EFE0 /* User.m */; };
+		439D8AB818FFA75A0079EFE0 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 439D8AB718FFA75A0079EFE0 /* Task.m */; };
+		439D8ABB18FFADC00079EFE0 /* BTTaskInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 439D8ABA18FFADC00079EFE0 /* BTTaskInfoViewController.m */; };
 		43B3B31818FE54A300AAD5F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43B3B31718FE54A300AAD5F4 /* Foundation.framework */; };
 		43B3B31A18FE54A300AAD5F4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43B3B31918FE54A300AAD5F4 /* CoreGraphics.framework */; };
 		43B3B31C18FE54A300AAD5F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43B3B31B18FE54A300AAD5F4 /* UIKit.framework */; };
@@ -22,6 +26,10 @@
 		43B3B33918FE54A300AAD5F4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43B3B31D18FE54A300AAD5F4 /* CoreData.framework */; };
 		43B3B34118FE54A300AAD5F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 43B3B33F18FE54A300AAD5F4 /* InfoPlist.strings */; };
 		43B3B34318FE54A300AAD5F4 /* TaskMateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B3B34218FE54A300AAD5F4 /* TaskMateTests.m */; };
+		43B3B34D18FE54C500AAD5F4 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43B3B34C18FE54C500AAD5F4 /* Storyboard.storyboard */; };
+		43B3B35418FEB22E00AAD5F4 /* BTTasksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B3B35318FEB22E00AAD5F4 /* BTTasksViewController.m */; };
+		43B3B35718FEB23C00AAD5F4 /* BTProjectsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B3B35618FEB23C00AAD5F4 /* BTProjectsViewController.m */; };
+		43B3B35A18FEB62700AAD5F4 /* BTTaskTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B3B35918FEB62700AAD5F4 /* BTTaskTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		439D8AB018FFA75A0079EFE0 /* Project.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Project.h; sourceTree = "<group>"; };
+		439D8AB118FFA75A0079EFE0 /* Project.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Project.m; sourceTree = "<group>"; };
+		439D8AB318FFA75A0079EFE0 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		439D8AB418FFA75A0079EFE0 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		439D8AB618FFA75A0079EFE0 /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		439D8AB718FFA75A0079EFE0 /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
+		439D8AB918FFADC00079EFE0 /* BTTaskInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTTaskInfoViewController.h; sourceTree = "<group>"; };
+		439D8ABA18FFADC00079EFE0 /* BTTaskInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTTaskInfoViewController.m; sourceTree = "<group>"; };
 		43B3B31418FE54A300AAD5F4 /* TaskMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43B3B31718FE54A300AAD5F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		43B3B31918FE54A300AAD5F4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -47,12 +63,19 @@
 		43B3B32818FE54A300AAD5F4 /* BTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTAppDelegate.h; sourceTree = "<group>"; };
 		43B3B32918FE54A300AAD5F4 /* BTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTAppDelegate.m; sourceTree = "<group>"; };
 		43B3B32C18FE54A300AAD5F4 /* TaskMate.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TaskMate.xcdatamodel; sourceTree = "<group>"; };
-		43B3B32E18FE54A300AAD5F4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		43B3B32E18FE54A300AAD5F4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = TaskMate/Images.xcassets; sourceTree = "<group>"; };
 		43B3B33418FE54A300AAD5F4 /* TaskMateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskMateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43B3B33518FE54A300AAD5F4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		43B3B33E18FE54A300AAD5F4 /* TaskMateTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TaskMateTests-Info.plist"; sourceTree = "<group>"; };
 		43B3B34018FE54A300AAD5F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		43B3B34218FE54A300AAD5F4 /* TaskMateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaskMateTests.m; sourceTree = "<group>"; };
+		43B3B34C18FE54C500AAD5F4 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		43B3B35218FEB22E00AAD5F4 /* BTTasksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTTasksViewController.h; sourceTree = "<group>"; };
+		43B3B35318FEB22E00AAD5F4 /* BTTasksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTTasksViewController.m; sourceTree = "<group>"; };
+		43B3B35518FEB23C00AAD5F4 /* BTProjectsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTProjectsViewController.h; sourceTree = "<group>"; };
+		43B3B35618FEB23C00AAD5F4 /* BTProjectsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTProjectsViewController.m; sourceTree = "<group>"; };
+		43B3B35818FEB62700AAD5F4 /* BTTaskTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTTaskTableViewCell.h; sourceTree = "<group>"; };
+		43B3B35918FEB62700AAD5F4 /* BTTaskTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTTaskTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +107,11 @@
 		43B3B30B18FE54A300AAD5F4 = {
 			isa = PBXGroup;
 			children = (
+				43B3B35B18FEB64F00AAD5F4 /* UI */,
+				43B3B35118FE574000AAD5F4 /* Custom Controls */,
+				43B3B35018FE573A00AAD5F4 /* Controllers */,
+				43B3B34F18FE573300AAD5F4 /* Models */,
+				43B3B34E18FE572E00AAD5F4 /* Images */,
 				43B3B31F18FE54A300AAD5F4 /* TaskMate */,
 				43B3B33C18FE54A300AAD5F4 /* TaskMateTests */,
 				43B3B31618FE54A300AAD5F4 /* Frameworks */,
@@ -117,8 +145,6 @@
 			children = (
 				43B3B32818FE54A300AAD5F4 /* BTAppDelegate.h */,
 				43B3B32918FE54A300AAD5F4 /* BTAppDelegate.m */,
-				43B3B32E18FE54A300AAD5F4 /* Images.xcassets */,
-				43B3B32B18FE54A300AAD5F4 /* TaskMate.xcdatamodeld */,
 				43B3B32018FE54A300AAD5F4 /* Supporting Files */,
 			);
 			path = TaskMate;
@@ -151,6 +177,58 @@
 				43B3B33F18FE54A300AAD5F4 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		43B3B34E18FE572E00AAD5F4 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				43B3B32E18FE54A300AAD5F4 /* Images.xcassets */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		43B3B34F18FE573300AAD5F4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				439D8AB618FFA75A0079EFE0 /* Task.h */,
+				439D8AB718FFA75A0079EFE0 /* Task.m */,
+				439D8AB318FFA75A0079EFE0 /* User.h */,
+				439D8AB418FFA75A0079EFE0 /* User.m */,
+				439D8AB018FFA75A0079EFE0 /* Project.h */,
+				439D8AB118FFA75A0079EFE0 /* Project.m */,
+				43B3B32B18FE54A300AAD5F4 /* TaskMate.xcdatamodeld */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		43B3B35018FE573A00AAD5F4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				43B3B35218FEB22E00AAD5F4 /* BTTasksViewController.h */,
+				43B3B35318FEB22E00AAD5F4 /* BTTasksViewController.m */,
+				43B3B35518FEB23C00AAD5F4 /* BTProjectsViewController.h */,
+				43B3B35618FEB23C00AAD5F4 /* BTProjectsViewController.m */,
+				439D8AB918FFADC00079EFE0 /* BTTaskInfoViewController.h */,
+				439D8ABA18FFADC00079EFE0 /* BTTaskInfoViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		43B3B35118FE574000AAD5F4 /* Custom Controls */ = {
+			isa = PBXGroup;
+			children = (
+				43B3B35818FEB62700AAD5F4 /* BTTaskTableViewCell.h */,
+				43B3B35918FEB62700AAD5F4 /* BTTaskTableViewCell.m */,
+			);
+			name = "Custom Controls";
+			sourceTree = "<group>";
+		};
+		43B3B35B18FEB64F00AAD5F4 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				43B3B34C18FE54C500AAD5F4 /* Storyboard.storyboard */,
+			);
+			name = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +309,7 @@
 			files = (
 				43B3B32418FE54A300AAD5F4 /* InfoPlist.strings in Resources */,
 				43B3B32F18FE54A300AAD5F4 /* Images.xcassets in Resources */,
+				43B3B34D18FE54C500AAD5F4 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +328,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				439D8AB518FFA75A0079EFE0 /* User.m in Sources */,
 				43B3B32A18FE54A300AAD5F4 /* BTAppDelegate.m in Sources */,
+				43B3B35418FEB22E00AAD5F4 /* BTTasksViewController.m in Sources */,
+				43B3B35A18FEB62700AAD5F4 /* BTTaskTableViewCell.m in Sources */,
 				43B3B32618FE54A300AAD5F4 /* main.m in Sources */,
+				43B3B35718FEB23C00AAD5F4 /* BTProjectsViewController.m in Sources */,
+				439D8AB218FFA75A0079EFE0 /* Project.m in Sources */,
+				439D8AB818FFA75A0079EFE0 /* Task.m in Sources */,
 				43B3B32D18FE54A300AAD5F4 /* TaskMate.xcdatamodeld in Sources */,
+				439D8ABB18FFADC00079EFE0 /* BTTaskInfoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,6 +536,7 @@
 				43B3B34818FE54A300AAD5F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		43B3B34918FE54A300AAD5F4 /* Build configuration list for PBXNativeTarget "TaskMateTests" */ = {
 			isa = XCConfigurationList;
@@ -458,6 +545,7 @@
 				43B3B34B18FE54A300AAD5F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
@@ -468,7 +556,8 @@
 				43B3B32C18FE54A300AAD5F4 /* TaskMate.xcdatamodel */,
 			);
 			currentVersion = 43B3B32C18FE54A300AAD5F4 /* TaskMate.xcdatamodel */;
-			path = TaskMate.xcdatamodeld;
+			name = TaskMate.xcdatamodeld;
+			path = TaskMate/TaskMate.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
